@@ -4,50 +4,34 @@ body{
     margin: 0;
 }
 
-header,main,nav,aside,footer {
-    padding: 16px;
-    box-sizing: border-box;
-}
-
 header {
     background-color: pink;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
 }
 
-main {
-    background-color: skyblue;
+h1 {
+    margin: 0;
+    font-size: 16px;
 }
 
 nav {
     background-color: orange;
 }
 
-aside {
-    background-color: tomato;
+.pc-menu {
     display: none;
 }
 
-footer {
-    background-color: silver;
-}
-
 @media (min-width: 600px) {
-    .container {
-        display: flex;
+    .sp-menu {
+        display: none;
     }
 
-    nav {
-        width: 160px;
-        order: -1;
-    }
-
-    main {
-        flex: 1;
-    }
-
-    aside {
+    .pc-menu {
+        background-color: aqua;
         display: block;
-        width: 160px;
     }
-
 
 }
