@@ -4,7 +4,7 @@ body{
     margin: 0;
 }
 
-header,main,nav,footer {
+header,main,nav,aside,footer {
     padding: 16px;
     box-sizing: border-box;
 }
@@ -19,6 +19,10 @@ main {
 
 nav {
     background-color: orange;
+}
+
+aside {
+    background-color: tomato;
 }
 
 footer {
@@ -37,6 +41,10 @@ footer {
 
     main {
         flex: 1;
+    }
+
+    aside {
+        display: none;
     }
 
 
