@@ -1,37 +1,31 @@
 @charset "utf-8";
 
-body{
-    margin: 0;
+.box {
+    height: 80px;
+    padding: 8px;
+    box-sizing: border-box;
 }
 
-header {
+.box-1 {
     background-color: pink;
-    padding: 16px;
-    display: flex;
-    justify-content: space-between;
 }
 
-h1 {
-    margin: 0;
-    font-size: 16px;
+.box-2 {
+    background-color: skyblue;
 }
 
-nav {
-    background-color: orange;
+.box-3 {
+    background-color: greenyellow;
 }
 
-.pc-menu {
-    display: none;
+.box-4 {
+    background-color: silver;
 }
 
-@media (min-width: 600px) {
-    .sp-menu {
-        display: none;
-    }
+.box-5 {
+    background-color: tomato;
+}
 
-    .pc-menu {
-        background-color: aqua;
-        display: block;
-    }
-
+.box-6 {
+    background-color: blue;
 }
